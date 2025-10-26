@@ -9,7 +9,7 @@ industry = st.selectbox("Industry:", ["All", "Food", "Auto", "Retail", "Health",
 
 if st.button("Search"):
     data = []
-    for i in range(20):
+    for i in range(1000):
         data.append({
             "Name": f"Business {i+1}",
             "Type": random.choice(["Restaurant", "Shop", "Service"]),
